@@ -6,8 +6,8 @@ module HaikuName
 
   # Return a randomly generate haiku name string
   #
-  # @param(Integer) token_length optional length of token to use. 0 to omit
-  # @return(String)
+  # @param [Integer] token_length optional length of token to use. 0 to omit
+  # @return [String]
   def self.generate(token_length = 4)
     parts = [ADJECTIVES.sample, NOUNS.sample]
 
