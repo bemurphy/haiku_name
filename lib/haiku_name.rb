@@ -4,7 +4,7 @@ require "securerandom"
 module HaikuName
   DELIMITER = '-'.freeze
 
-  # Return a randomly generate haiku name string
+  # Returns a randomly generated haiku name string
   #
   # @param [Integer] token_length optional length of token to use. 0 to omit
   # @return [String]
