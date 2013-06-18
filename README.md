@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-HaikuName is not configuration and has 1 simple method, `.generate`
+HaikuName is not configurable and has 1 method, `.generate`:
 
 ```ruby
 HaikuName.generate # => 'delicate-dust-2a74'
